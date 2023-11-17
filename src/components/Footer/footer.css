@@ -1,0 +1,19 @@
+.site-footer {
+    color: #ffc0cb; /* Light text color for readability */
+    text-align: center;
+    padding: 20px 0; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    margin: 0 auto;
+    margin-top: 250px;
+    max-width: 1200px;
+    font-size: 30px;
+    padding: 0 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+  }
+  

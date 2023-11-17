@@ -1,0 +1,16 @@
+.home-container {
+    background-color: black;
+    height: 100%;
+    width: 100vw;
+  }
+  
+  .image{
+    width: 700px;
+    height: 500px;
+    margin-top: 65px;
+  }
+  .p
+  {
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }

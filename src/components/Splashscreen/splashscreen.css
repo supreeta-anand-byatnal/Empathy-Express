@@ -1,0 +1,34 @@
+.splash-screen {
+    position: fixed; /* Fixed position to cover the whole screen */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: black; /* Change to your preferred background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .splash-logo {
+    width: 300px; 
+    margin-bottom: 20px;
+    animation: logo-spin infinite 20s linear; 
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #333; /* Dark text color for contrast */
+  }
+  

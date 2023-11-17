@@ -1,0 +1,82 @@
+.form {
+  
+  margin: 50px auto;
+  padding: 20px;
+  background: black;
+  border-radius: 8px;
+  color: pink;
+  justify-content: space-between;
+  font-family: 'Arial', sans-serif;
+}
+.form-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.form-label {
+  margin-right: 10px;
+  white-space: nowrap; /* Prevent the label from wrapping */
+}
+
+.form-input,
+.form-textarea {
+  flex: 1; /* Take up the remaining space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+.form-checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+.form-checkbox {
+  margin-left: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  justify-content: center; 
+  justify-content: flex-start; 
+}
+
+.submit-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: pink;
+  cursor: pointer;
+  border-radius: 25px; 
+  transition: background-color 0.3s ease;
+}
