@@ -7,7 +7,7 @@
 
   }
   .modal {
-    display: block; /* Hidden by default; set to block to show it */
+    display: block; 
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
@@ -22,10 +22,10 @@
   .modal-content {
     background-color: pink ; 
     margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    padding: 10px;
     border: 1px solid black;
     font-size: 30px;
-    width: 40%; /* Could be more or less, depending on screen size */
+    width: 50%; /* Could be more or less, depending on screen size */
   }
   .image{
     width: 700px;
